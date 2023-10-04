@@ -52,3 +52,5 @@ create table  npa_in_percentage(bank_id int, gross float, net float);
 alter table npa_in_percentage
 add foreign key (bank_id)
 references performance_ratios(bank_id);
+
+
