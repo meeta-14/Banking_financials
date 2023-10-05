@@ -17,19 +17,19 @@ insert into performance_ratios values
     (9,'IDBI BANK LTD',53.01,9.82,1.1,3.45,2.78),
     (10,'INDUSIND BANK LTD',40.14,13.6,1.61,3.84,3.26);
 
-create table valuation_ratios(bank_id int, price_to_earnings float, price_to_book float);
+create table valuation_ratios(bank_id int, price_to_earnings float, price_to_book float, eps float);
 
 insert into valuation_ratios values
-    (1,19.48,3.1),
-    (2,5.86,0.83),
-    (3,8.4,1.41),
-    (4,17.95,2.9),
-    (5,23.12,3.08),
-    (6,24.39,2.04),
-    (7,13.22,1.15),
-    (8,4.58,6.5),
-    (9,13.04,1.27),
-    (10,11.12,1.52);
+    (1,19.48,3.1,82.64),
+    (2,5.86,0.83,28.82),
+    (3,8.4,1.41,62.35),
+    (4,17.95,2.9,48.86),
+    (5,23.12,3.08,74.96),
+    (6,24.39,2.04,35.2),
+    (7,13.22,1.15,1.94),
+    (8,4.58,6.5,62.04),
+    (9,13.04,1.27,3.45),
+    (10,11.12,1.52,96.01);
     
  alter table valuation_ratios
  add foreign key (bank_id)
