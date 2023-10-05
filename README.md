@@ -54,3 +54,8 @@ add foreign key (bank_id)
 references performance_ratios(bank_id);
 
 
+#Dashboard of banking sector performance comparison of top 10 banks in India:
+
+https://acrobat.adobe.com/id/urn:aaid:sc:AP:b30b55b1-a2c0-4871-b0ef-4edffcbdcaa8
+
+
