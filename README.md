@@ -53,5 +53,5 @@ alter table npa_in_percentage
 add foreign key (bank_id)
 references performance_ratios(bank_id);
 
-
-
+# pdf link:
+https://www.canva.com/design/DAFwbPR-CP4/uNqjdvTHhAOQ9AqIp0OPBg/edit?utm_content=DAFwbPR-CP4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
